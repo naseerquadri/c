@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int a;
+    printf("Enter your year=");
+    scanf("%d",&a);
+    if(a%4==0)
+    {
+    printf("Year is leap");
+    }
+    else
+    {
+    printf("Year is common");
+    }
+}
