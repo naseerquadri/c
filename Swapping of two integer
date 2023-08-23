@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,g;
+    printf("Enter First No a=");
+    scanf("%d",&a);
+    printf("Enter Second No b=");
+    scanf("%d",&b);
+    printf("prev swapping a=%d and b=%d",a,b);
+    g=a;
+    a=b;
+    b=g;f
+    printf("\n");
+    printf("After swapping a=%d and b=%d",a,b);
+    }
